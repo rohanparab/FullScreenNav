@@ -79,8 +79,13 @@
     transition: 0.3s;
 }
 
+.overlay a:hover {
+    font-size: 40px;
+}
+
 .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
+    text-decoration: none;
 }
 
 .overlay .closebtn {
@@ -92,6 +97,9 @@
 
 @media screen and (max-height: 450px) {
     .overlay a {font-size: 20px}
+    .overlay a:hover {
+        font-size: 25px;
+    }
     .overlay .closebtn {
         font-size: 40px;
         top: 15px;
